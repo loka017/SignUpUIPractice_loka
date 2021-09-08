@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_atovac_01"
+        android:scaleType="fitCenter"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
